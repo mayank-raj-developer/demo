@@ -12,6 +12,6 @@ public class HelloWorld {
     @GetMapping("/enter")
     public ResponseEntity<String> helloWorld()
     {
-        return new ResponseEntity<>("Hello world", HttpStatusCode.valueOf(200));
+        return new ResponseEntity<>("Hello world new branch", HttpStatusCode.valueOf(200));
     }
 }
